@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8">
-    </meta>
-    <title>Ảnh mèo</title>
-  </head>
-  <body>
-    <main>
-      <h1>Ảnh mèo app</h1>
-      <section>
-        <h2>Mấy tấm ảnh mèo</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>Click vô <a target="_blank" href="https://www.google.com/search?q=cat+photo&newwindow=1&sxsrf=ALiCzsY6BR5ztWJIi3ocrJiyW71HYzv4sg:1666712276754&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjAksuJ2_v6AhVpmFYBHT41BnkQ_AUoAXoECAEQAw&biw=1536&bih=754&dpr=1.25#imgrc=woNPU47PaRJrDM">đây</a> để xem nhiều ảnh mèo hơn</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Những thứ mèo thích:</h3>
-        <ul>
-          <li>Cỏ mèo</li>
-          <li>laser</li>
-          <li>Phô mai</li>
-        </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Mèo <em>yêu</em> phô mai.</figcaption>  
-        </figure>
-        <h3>Top 3 thứ mà mèo ghét</h3>
-        <ol>
-          <li>bọ chét</li>
-          <li>sấm chớp</li>
-          <li>mấy con mèo khác</li>
-        </ol>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Mèo <strong>ghét</strong> những con mèo khác.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Form gửi hình mèo nhà bạn</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>Mèo của bạn đang ở trong nhà hay ngoài trời?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Trong nhà</label>
-            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Ngoài trời</label>
-          </fieldset>
-          <fieldset>
-            <legend>Mèo của bạn có tính cách như nào?</legend>
-            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Tình cảm</label>
-            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lười biến</label>
-            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Năng động</label>
-          </fieldset>
-          <input type="text" name="catphotourl" placeholder="Link ảnh mèo nhà bạn" required>
-          <button type="submit">Gửi</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>
-        File copy và kô có bản quyền gì cả - <a href="https://www.facebook.com/TNC2000/">Chuyênnnn</a>
-      </p>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  </meta>
+  <title>Ảnh mèo</title>
+</head>
+
+<body>
+  <main>
+    <h1>Ảnh mèo app</h1>
+    <section>
+      <h2>Mấy tấm ảnh mèo</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>Click vô <a target="_blank"
+          href="https://www.google.com/search?q=cat+photo&newwindow=1&sxsrf=ALiCzsY6BR5ztWJIi3ocrJiyW71HYzv4sg:1666712276754&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjAksuJ2_v6AhVpmFYBHT41BnkQ_AUoAXoECAEQAw&biw=1536&bih=754&dpr=1.25#imgrc=woNPU47PaRJrDM">đây</a>
+        để xem nhiều ảnh mèo hơn</p>
+      <a href="https://freecatphotoapp.com"><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."></a>
+    </section>
+    <section>
+      <h2>Cat Lists</h2>
+      <h3>Things cat like:</h3>
+      <ul>
+        <li>Cỏ mèo</li>
+        <li>laser</li>
+        <li>Phô mai</li>
+      </ul>
+      <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+          alt="A slice of lasagna on a plate.">
+        <figcaption>Mèo <em>yêu</em> phô mai.</figcaption>
+      </figure>
+      <h3>Top 3 thứ mà mèo ghét</h3>
+      <ol>
+        <li>bọ chét</li>
+        <li>sấm chớp</li>
+        <li>mấy con mèo khác</li>
+      </ol>
+      <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+          alt="Five cats looking around a field.">
+        <figcaption>Mèo <strong>ghét</strong> những con mèo khác.</figcaption>
+      </figure>
+    </section>
+    <section>
+      <h2>Form gửi hình mèo nhà bạn</h2>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+          <legend>Mèo của bạn đang ở trong nhà hay ngoài trời?</legend>
+          <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Trong nhà</label>
+          <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Ngoài trời</label>
+        </fieldset>
+        <fieldset>
+          <legend>Mèo của bạn có tính cách như nào?</legend>
+          <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Tình
+            cảm</label>
+          <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lười biến</label>
+          <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Năng
+            động</label>
+        </fieldset>
+        <input type="text" name="catphotourl" placeholder="Link ảnh mèo nhà bạn" required>
+        <button type="submit">Gửi</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>
+      File copy và kô có bản quyền gì cả - <a href="https://www.facebook.com/TNC2000/">Chuyênnnn</a>
+    </p>
+  </footer>
+</body>
+
 </html>
